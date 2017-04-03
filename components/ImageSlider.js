@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class ImageSlider extends React.Component {
+export default class ImageSlider extends React.Component {
   constructor(props) {
     super();
 
@@ -15,5 +15,3 @@ class ImageSlider extends React.Component {
     );
   }
 }
-
-module.exports = ImageSlider;

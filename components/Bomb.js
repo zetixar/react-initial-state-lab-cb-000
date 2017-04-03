@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class Bomb extends React.Component {
+export default class Bomb extends React.Component {
   constructor(props) {
     super();
 
@@ -17,5 +17,3 @@ class Bomb extends React.Component {
     );
   }
 }
-
-module.exports = Bomb;
